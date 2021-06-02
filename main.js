@@ -1,3 +1,4 @@
+const fetch = require("node-fetch");
 let latitude, longitude;
 
         navigator.geolocation.getCurrentPosition(position => {
