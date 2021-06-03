@@ -89,6 +89,7 @@ p {
         font-family: 'Do Hyeon', sans-serif;
     }
     .content2{
+        position : relative;
         margin-top: 500px;
         width: auto;
         height: auto;
