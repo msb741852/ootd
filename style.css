@@ -13,7 +13,7 @@ body{
 .wrapper {
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
     margin : 50%;
   }
 .content {
@@ -71,7 +71,6 @@ body{
 p {
     margin : 0;
 }
-
 .inner{
     position: absolute;
     text-align: start;
@@ -79,13 +78,13 @@ p {
     right: -70px;
     font-size: 13px;
 }
+
 @media screen and (max-width:500px) {
 
     .wrapper{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin : 50%;
     }
     .content{
         position: relative;
