@@ -80,6 +80,7 @@ p {
         min-height: 100vh;
     }
     .content{
+        position: relative;
         font-family: system-ui, serif;
         text-align: center;
         font-size: 20px;
@@ -89,7 +90,7 @@ p {
         font-family: 'Do Hyeon', sans-serif;
     }
     .content2{
-        position : relative;
+        position: absolute;
         margin-top: 500px;
         width: auto;
         height: auto;
@@ -107,9 +108,10 @@ p {
         left:-15px;
     }
     .inner {
-        position: fixed;
-        bottom: 30px;
-        right: 5px;
+        position: absolute;
+        text-align: start;
+        bottom: 0px;
+        right: -70px;
         font-size: 13px;
     }
 }
