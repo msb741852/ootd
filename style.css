@@ -86,6 +86,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
   .content {
     position: relative;
@@ -98,12 +99,11 @@ p {
     font-family: "Do Hyeon", sans-serif;
   }
   .content2 {
-    position: absolute;
-    margin-top: 500px;
     width: auto;
     height: auto;
-    margin-left: 20px;
-    margin-right: 80px;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 20vw;
   }
   .content2::after {
     border-top: 10px solid #fcf951;
