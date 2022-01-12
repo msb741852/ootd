@@ -1,124 +1,125 @@
-@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
 
 header {
-    text-align: center;
-    font-size: xx-large;
-    font-weight: bold;
-    margin-top: 1%;
-    margin-bottom: 1%;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
-body{
-    background-color: rgb(188, 216, 243);
+body {
+  background-color: rgb(188, 216, 243);
 }
 .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 97vh;
+}
+.content {
+  font-family: system-ui, serif;
+  font-size: 2rem;
+  padding: 3rem;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 10px rgb(107, 107, 107);
+  font-family: "Do Hyeon", sans-serif;
+}
+#wicon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ctemp::after {
+  content: "°C";
+}
+.content2 {
+  position: relative;
+  margin-left: 50px;
+  padding: 1%;
+  width: auto;
+  height: auto;
+  background: #fcf951;
+  border-radius: 10px;
+  text-align: center;
+  font-size: larger;
+  box-shadow: 10px 10px 10px rgb(107, 107, 107);
+  font-family: "Do Hyeon", sans-serif;
+}
+
+.content2::after {
+  border-top: 10px solid #fcf951;
+  border-left: 15px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 0px solid transparent;
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -15px;
+}
+#like {
+  margin-left: 20px;
+  margin-top: 40px;
+  font-weight: bold;
+  border: none;
+  background: none;
+  padding: 0;
+  color: #fcf951;
+}
+#time {
+  font-family: "Do Hyeon", sans-serif;
+  margin-left: 20px;
+}
+p {
+  margin: 0;
+}
+.inner {
+  position: absolute;
+  text-align: start;
+  bottom: 0px;
+  right: -70px;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 500px) {
+  .wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin : 50%;
   }
-.content {
+  .content {
+    position: relative;
     font-family: system-ui, serif;
-    font-size: 2rem;
-    padding: 3rem;
+    text-align: center;
+    font-size: 20px;
+    padding: 1rem;
     border-radius: 1rem;
     box-shadow: 10px 10px 10px rgb(107, 107, 107);
-    font-family: 'Do Hyeon', sans-serif;
-}
-#wicon {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.ctemp::after {
-    content: "°C";
-}
-.content2 {
-    position:relative;
-    margin-left: 50px;
-    padding : 1%;
-    width:auto;
-    height:auto;
-    background:#fcf951;
-    border-radius: 10px;
-    text-align: center;
-    font-size: larger;
-    box-shadow: 10px 10px 10px rgb(107, 107, 107);
-    font-family: 'Do Hyeon', sans-serif;
-}
-.content2::after{
-    border-top:10px solid #fcf951;
+    font-family: "Do Hyeon", sans-serif;
+  }
+  .content2 {
+    position: absolute;
+    margin-top: 500px;
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 80px;
+  }
+  .content2::after {
+    border-top: 10px solid #fcf951;
     border-left: 15px solid transparent;
     border-right: 0px solid transparent;
     border-bottom: 0px solid transparent;
-    content:"";
-    position:absolute;
-    top:10px;
-    left:-15px;
-}
-#like {
-    margin-left : 20px;
-    margin-top : 40px;
-    font-weight: bold;
-    border : none;
-    background:  none;
-    padding: 0;
-    color : #fcf951;
-}
-#time {
-    font-family: 'Do Hyeon', sans-serif;
-    margin-left : 20px;
-}
-p {
-    margin : 0;
-}
-.inner{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: -15px;
+  }
+  .inner {
     position: absolute;
     text-align: start;
     bottom: 0px;
     right: -70px;
     font-size: 13px;
-}
-
-@media screen and (max-width:500px) {
-
-    .wrapper{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .content{
-        position: relative;
-        font-family: system-ui, serif;
-        text-align: center;
-        font-size: 20px;
-        padding: 1rem;
-        border-radius: 1rem;
-        box-shadow: 10px 10px 10px rgb(107, 107, 107);
-        font-family: 'Do Hyeon', sans-serif;
-    }
-    .content2{
-        position: absolute;
-        margin-top: 500px;
-        width: auto;
-        height: auto;
-        margin-left: 20px;
-        margin-right: 80px;
-    }
-    .content2::after{
-        border-top:10px solid #fcf951;
-        border-left: 15px solid transparent;
-        border-right: 0px solid transparent;
-        border-bottom: 0px solid transparent;
-        content:"";
-        position:absolute;
-        top:10px;
-        left:-15px;
-    }
-    .inner {
-        position: absolute;
-        text-align: start;
-        bottom: 0px;
-        right: -70px;
-        font-size: 13px;
-    }
+  }
 }
