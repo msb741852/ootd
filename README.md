@@ -1,6 +1,6 @@
 # ootd
 
-https://hungry-colden-5795cc.netlify.app/
+https://affectionate-kowalevski-ce8bf4.netlify.app/
 
 <h1>오늘 뭐 입지?</h1>
 
