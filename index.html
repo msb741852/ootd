@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
     <title>오늘 뭐 입지?</title>
     <script defer src="http://code.jquery.com/jquery-1.7.min.js"></script>
     <script defer src="main.js"></script> 
@@ -14,21 +17,21 @@
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="content" id="content-type">
-            <header>오늘 뭐 입지?</header>
-            <img id="wicon" src="" alt="Weather icon">
-            <div class="city">현재 위치 : </div>
-            <div class="ctemp">현재 온도 : </div>
-        </div>
-        <div class="content2">
-            <p id="clothes" onclick="TestFuc()"></p>
-            <div class ="inner">
-                <p id="like">1</p>
-                <p id="time"></p>
-            </div>
-        </div>        
-    </div>
+    <main>
+        <article>
+            <section class="wether_section">
+                <h1>오늘 뭐 입지?</h1>
+                <img class="wether_icon" alt="wether_icon">
+                <div class="current_info">
+                    <span class="location">현재 위치 : </span>
+                    <span class="temperature">현재 온도 : </span>
+                </div>
+            </section>
+            <section class="messege_section">
+                <div class="yellow_messenger"></div>
+                <div class="time"></div>
+            </section>
+        </article>
+    </main>
 </body>
-
 </html>
