@@ -32,3 +32,7 @@ TO STUDY
 - position : relative, absolute
 - border로 삼각형
 - getElemntById, querySelector
+
+
+![ezgif-2-2e870e38db](https://user-images.githubusercontent.com/75235831/161054992-0b7fb72f-f6e9-44e7-9e11-7ef6a7ebad16.gif)
+
