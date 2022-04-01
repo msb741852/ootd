@@ -62,7 +62,7 @@ article {
   margin-left: 10px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 890px) {
   article {
     flex-direction: column;
   }

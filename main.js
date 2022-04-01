@@ -57,6 +57,3 @@ let latitude, longitude;
                 })
                 
         });
-        function TestFuc() {
-                $("#like").hide();
-            }

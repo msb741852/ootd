@@ -33,6 +33,13 @@ TO STUDY
 - border로 삼각형
 - getElemntById, querySelector
 
-
 ![ezgif-2-2e870e38db](https://user-images.githubusercontent.com/75235831/161054992-0b7fb72f-f6e9-44e7-9e11-7ef6a7ebad16.gif)
 
+---
+
+V1.1.1
+
+- 미디어쿼리 최대 크기 값 수정
+- Javascript 수정(사용하지 않는 기능 삭제)
+
+![ezgif-4-5d9a77df0e](https://user-images.githubusercontent.com/75235831/161279177-d9a9c1fa-b7eb-4cfb-9f67-8893e35e2d3e.gif)
